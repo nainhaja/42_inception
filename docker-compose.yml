@@ -1,0 +1,74 @@
+version: '3'
+
+services:
+
+        mariadb:
+                build : "./mariadb_docker/"
+                #image: mysql:5.7
+                #restart: always
+                environment:
+                        #MYSQL_DATABASE: wordpress
+                      MYSQL_USER: wpuser
+                      MYSQL_PASSWORD: Surprise123.
+                      MYSQL_HOSTNAME: mariadb:3306
+                      MYSQL_ROOT_PASSWORD: PASSWORD
+                networks:
+                        - network
+                container_name: mariadb
+                restart: always
+                ports:
+                        - 3306:3306
+                          #volumes:
+                          #- database:/var/lib/mysql
+       
+        nginx:
+                build: "./nginx_docker/"
+                ports:
+                        - 80:80
+                container_name: nginx
+                networks:
+                        - network
+                volumes:
+                        - /home/nainhaja/Desktop/wordpress/wpdocker/wordpress:/var/www/html/wordpress
+                depends_on:
+                        - mariadb
+        wordpress:
+                build : "./wpdocker/"
+                ports:
+                        - 9000:9000
+                environment:
+                        WORDPRESS_DB_HOST: mariadb:3306
+                        WORDPRESS_DB_USER: wpuser
+                        WORDPRESS_DB_PASSWORD: Surprise123.
+                        WORDPRESS_DB_NAME: wordpress
+                volumes:
+                        - /home/nainhaja/Desktop/wordpress/wpdocker/wordpress:/var/www/html/wordpress
+                          #- /home/nainhaja/wp:/var/www/html
+                          #links:
+                          # - mariadb
+                networks:
+                        - network
+                container_name: wordpress
+                depends_on:
+                        - nginx
+
+networks:
+        network: {}
+volumes:
+        database: {}
+        wordpress: {}
+        #  db:
+        # driver_opts:
+        #type: none
+        #device: /home/nainhaja/data/db
+        #o: bind
+        #wordpress:   
+        #driver_opts:
+        # type: none
+        # device: /home/nainhaja/wordpress/wpdocker/wordpress
+        # o: bind
+    #volumes:
+    # mariadb_data:
+    #driver: local
+    #wordpress_data:
+    # driver: local
