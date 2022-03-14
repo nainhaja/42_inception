@@ -1,0 +1,15 @@
+FROM ubuntu:20.04
+EXPOSE 80 443
+ENV UBUNTU_FRONTEND=noninteractive
+RUN apt update -y
+RUN apt upgrade -y
+RUN apt install wget -y
+RUN apt install dpkg -y
+RUN apt install gnupg -y lsb-release
+RUN wget https://wordpress.org/latest.tar.gz
+RUN tar xvf latest.tar.gz
+COPY /wp-config.php /
+RUN mv /wordpress/ /var/www/
+COPY /wordpress.conf /etc/nginx/conf.d/
+COPY /script.sh /
+CMD sh script.sh

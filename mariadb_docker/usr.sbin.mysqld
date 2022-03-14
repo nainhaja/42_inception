@@ -1,0 +1,2 @@
+/run/mysqld/mysqld.pid rw,
+/run/mysqld/mysqld.sock rw,

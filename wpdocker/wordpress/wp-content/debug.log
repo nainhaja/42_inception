@@ -1,0 +1,93 @@
+[06-Mar-2022 02:09:55 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:09:55 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:09:55 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=515 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:09:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:24:19 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:24:19 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:24:19 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=284 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:24:19 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:47:27 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:47:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:47:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:47:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:47:41 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:52:40 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 02:52:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 03:15:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wpuser'@'wordpress.wordpress_network' (using password: YES) in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 03:26:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 19:36:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wpuser'@'wordpress.wordpress_network' (using password: YES) in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 19:36:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wpuser'@'wordpress.wordpress_network' (using password: YES) in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 19:56:34 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 19:56:34 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:03:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:03:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:18 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:18 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:19 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:19 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:19 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:19 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 20:10:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:42 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:42 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:42 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=31 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:44 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:44 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:44 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=32 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:18:44 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:37 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:37 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:37 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=31 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=32 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=31 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=32 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=31 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=32 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=31 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=32 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:21:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:53:56 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:53:56 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:53:56 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=33 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:53:56 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:54:08 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:54:08 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:54:08 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=33 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:54:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:55:18 UTC] PHP Warning:  Packets out of order. Expected 0 received 1. Packet size=86 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:55:18 UTC] PHP Warning:  mysqli_real_connect(): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:55:18 UTC] PHP Warning:  mysqli_real_connect(): Error while reading greeting packet. PID=34 in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753
+[06-Mar-2022 23:55:18 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2006): MySQL server has gone away in /var/www/html/wordpress/wp-includes/wp-db.php on line 1753

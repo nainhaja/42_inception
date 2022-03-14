@@ -1,0 +1,10 @@
+FROM ubuntu:20.04
+EXPOSE 80 443
+ENV UBUNTU_FRONTEND=noninteractive
+RUN apt update -y
+RUN apt upgrade -y
+RUN apt install mariadb-server -y
+RUN apt install mariadb-client -y
+Copy /wp-config.php /
+COPY /script.sh /
+CMD sh script.sh

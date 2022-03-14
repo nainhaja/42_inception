@@ -1,0 +1,30 @@
+server {
+
+listen 80 default_server;
+
+listen [::]:80 default_server;
+
+root /var/www/html/wordpress;
+index index.php;
+
+server_name _;
+
+#error_log /var/log/nginx/wpress.cƒonf_error.log;
+
+#access_log /var/log/nginx/wordpress.conf_access.log;
+
+#client_max_body_size 100M;
+
+location / {
+
+try_files $uri $uri/ =404;
+
+}
+
+location ~ \.php$ {
+	include snippets/fastcgi-php.conf;
+	fastcgi_pass wordpress:9000;
+}
+
+}
+
